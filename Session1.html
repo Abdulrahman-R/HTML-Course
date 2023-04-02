@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>دورة html</title>
+        <style>
+            table,th,td{
+                border: 1px solid blueviolet;
+            }
+        </style>
+    </head>
+    <body dir="rtl">
+        <h1>دورة HTML</h1><!--title-->
+        <img src="htmlpic.png" height = "200" width="300" alt="يوجد هنا تصورة توضيحية">
+        <h2>وصف الدورة</h2><!--sub title-->
+        <p><!--discreption-->
+            لغة ترميز النص الفائق (بالإنجليزية: <strong>HyperText Markup Language</strong>)(اختصار إتش تي إم إل <b>HTML</b>)، 
+            هي لغة ترميز تستخدم في إنشاء وتصميم صفحات ومواقع الويب،
+         و<i>تعتبر هذه اللّغة من أقدم اللّغات</i> وأوسعها استخداما في تصميم صفحات الويب.
+         <em>HTML IS FUN</em>
+        </p>
+        <p>
+            <b>مواعيد المحاضرات يومياً:</b><br>
+            من الساعة
+            8:00<sub>am</sub>
+            وحتى الساعة 
+            11:00<sub>am</sub>
+        </p>
+        <p>
+            <b>المستويات لهذه الدورة</b>
+            1<sup>st</sup>level: اساسيات html <br>
+            2<sup>nd</sup>level: مفاهيم متقدمة في html
+        </p><hr>
+        <h2>أهداف هذه الدورة</h2>
+        <ol type="i">
+            <li>التعرف على مفهوم html</li>
+            <li>تعلم كل tag والغرض من استخدامه</li>
+            <li>طرق إضافة الفديوهات,النصوص,وغيرها من المحتويات المعتادة في صفحة الويب</li>
+        </ol>
+        <h2>متطلبات هذه الدورة</h2>
+        <ul type="circle">
+            <li>متصفح (سفاري, قوقل كروم)</li>
+            <li>محرر نصوص</li>
+        </ul>
+        <p>للرمجع قم بالضغط
+            <a href="https://www.w3arabiconline.com/p/html_30.html">هنا</a>
+        </p>
+
+        <video width="500" height="400" controls>
+            <source src="What is HTML_.mp4" type="video/mp4">
+            عذرا لايمكن عرض هذا الفيديو
+        </video>
+        <br>
+        <audio controls>
+            <source src="htmlaudio.mp3" type="audio/mp3">
+        </audio>
+
+        <table>
+            <caption>جدول أماكن المحاضرات</caption>
+            <tr>
+                <th>اليوم</th>
+                <th>المكان</th>
+            </tr>
+            <tr>
+                <td>الأحد والاثنين</td>
+                <td>Class A</td>
+            </tr>
+            <tr>
+                <td>الثلاثاء والأربعاء</td>
+                
+                <td>Class B</td>
+                 
+            </tr>
+            <tr>
+                
+                <td colspan="2">الخميس
+                عن بعد</td>
+            </tr>
+        </table>
+
+        <h2>نموذج الإنضمام للدورة</h2>
+        <form>
+            <label for="name">اسم المستخدم</label>
+            <input type="text" id="name">
+            <p>الجنس:</p>
+            <label for="male">ذكر</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">أنثى</label>
+            <input type="radio" id="female" name="gender">
+            <p>من أين سمعت عن ال html؟ </p>
+            <input type="checkbox" name="friend" id="friend">
+            <label for="friend">صديق</label><br>
+            <input type="checkbox" name="socialMedia" id="socialMedia">
+            <label for="socialMedia">مواقع التواصل الإجتماعي</label><br>
+            <input type="checkbox" name="books" id="books">
+            <label for="books">الكتب</label>
+
+            <label for="city">اختر مدينتك</label>
+            <select name="city" id="city">
+                <option value="Riyadh">الرياض</option>
+                <option value="Jeddah">جدة</option>
+                <option value="Dammam">الدمام</option>
+            </select>
+            <br>
+            <input type="submit" value="انضمام">
+        </form>
+    </body>
+</html>
